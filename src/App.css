@@ -2,7 +2,6 @@
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
-  text-align: center;
 }
 
 .title {
@@ -10,10 +9,6 @@
   line-height: 1.1;
   display: flex;
   text-align: center;
-}
-
-.card {
-  padding: 2em;
 }
 
 .toolbar {
@@ -53,4 +48,45 @@
 
 button svg {
   vertical-align: text-bottom;
+}
+
+
+.grid-item {
+  border: 1px solid #d8dadf;
+  border-radius: 0.25em;
+  height: 75px;
+  width: 75px;
+}
+
+.grid {
+  display: flex;
+  margin-top: 80px;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.grid-row {
+  display: flex;
+  flex-direction: row;
+  gap: 6px;
+}
+
+.green {
+  background-color: #538d4e;
+}
+
+.yellow {
+  background-color: #b59f3b;
+}
+
+.gray {
+  background-color: #4f4f4f;
+}
+
+.tile {
+  display: inline-block;
+  padding: 16px;
+  margin-right: 4px;
+  border: 1px solid #d8dadf;
+  border-radius: 0.25em;
 }
